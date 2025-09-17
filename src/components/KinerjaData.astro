@@ -1,0 +1,68 @@
+---
+// Kinerja & Data component dengan chart dan revegetasi
+---
+
+<section id="data" class="py-20 bg-gray-50">
+  <div class="container mx-auto px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="bg-white rounded-3xl p-12 shadow-xl">
+        <h2 class="text-4xl font-bold mb-12 text-green-800">Kinerja & Data</h2>
+        
+        <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+          <div>
+            <div class="mb-6">
+              <div class="text-sm text-gray-500 mb-2">Kinerja penanaman 25.3.2562</div>
+              <h3 class="text-5xl font-bold text-green-800 mb-4">14,373.74 <span class="text-2xl">ha</span></h3>
+            </div>
+            <p class="text-gray-700 mb-8 text-lg leading-relaxed">
+              Total penanaman 2013, 2522 mencapai 14,373.74 ha 
+              lintas komoditas
+            </p>
+            <button class="bg-green-800 hover:bg-green-900 text-white px-8 py-4 rounded-lg font-semibold transition-colors shadow-lg">
+              Lihat Proyek
+            </button>
+          </div>
+          
+          <!-- Chart Area -->
+          <div class="bg-gray-50 p-8 rounded-2xl">
+            <div class="h-64 relative">
+              <!-- Placeholder Chart -->
+              <div class="absolute inset-0 flex items-end justify-center space-x-2">
+                <div class="bg-green-400 w-8 h-32 rounded-t"></div>
+                <div class="bg-green-500 w-8 h-40 rounded-t"></div>
+                <div class="bg-green-600 w-8 h-36 rounded-t"></div>
+                <div class="bg-green-400 w-8 h-44 rounded-t"></div>
+                <div class="bg-green-500 w-8 h-38 rounded-t"></div>
+                <div class="bg-green-600 w-8 h-42 rounded-t"></div>
+              </div>
+              <div class="absolute bottom-0 left-0 right-0 flex justify-between text-xs text-gray-500 mt-4">
+                <span>2019</span>
+                <span>2020</span>
+                <span>2021</span>
+                <span>2022</span>
+                <span>2023</span>
+                <span>2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Revegetasi Section -->
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+          <div class="bg-green-50 rounded-2xl p-8">
+            <h4 class="text-2xl font-bold text-green-800 mb-4">Revegetasi</h4>
+            <div class="text-4xl font-bold text-green-600 mb-2">0.7 m</div>
+            <p class="text-gray-600">Area revegetasi yang telah berhasil direhabilitasi</p>
+          </div>
+          <div class="h-80 bg-gradient-to-br from-green-300 to-green-500 rounded-2xl flex items-center justify-center relative overflow-hidden">
+            <!-- Placeholder untuk gambar revegetasi -->
+            <div class="text-center text-white">
+              <div class="text-8xl mb-4">🌳</div>
+              <div class="text-xl font-semibold">Revegetasi Area</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
