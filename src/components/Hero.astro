@@ -1,16 +1,20 @@
 ---
-// Hero component with forest background matching the reference
+// Hero component with properly fitted video background
 ---
 
 <section id="home" class="relative min-h-screen overflow-hidden">
-  <!-- Background Image -->
+  <!-- Video Background -->
   <div class="absolute inset-0">
-    <img 
-      src="/images/forest-hero.png" 
-      alt="Forest Background" 
-      class="w-full h-full object-cover"
-    />
-    <!-- Dark overlay with explicit opacity -->
+    <!-- YouTube Video Embed - Properly Fitted -->
+    <iframe 
+      src="https://www.youtube.com/embed/PRvOyfvU2AA?autoplay=1&mute=1&loop=1&playlist=PRvOyfvU2AA&controls=0&showinfo=0&rel=0&iv_load_policy=3&modestbranding=1"
+      class="absolute top-1/2 left-1/2 w-full h-full min-w-full min-h-full transform -translate-x-1/2 -translate-y-1/2"
+      style="pointer-events: none; width: 100vw; height: 56.25vw; min-height: 100vh; min-width: 177.78vh;"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen
+    ></iframe>
+    <!-- Dark overlay -->
     <div class="absolute inset-0" style="background-color: rgba(0, 0, 0, 0.4);"></div>
   </div>
   
